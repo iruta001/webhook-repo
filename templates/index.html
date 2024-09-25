@@ -36,7 +36,7 @@
                 console.error('Error fetching events:', error);
             }
         }
-
+        fetchEvents();
         setInterval(fetchEvents, 15000);  // Poll every 15 seconds
     </script>
 </head>
